@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/pexels-pixabay-235985.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#quote-container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('images/pexels-hngstrm-1939485.jpg');
+    background-size: cover;
+}
+
+#quote {
+    font-size: 28px;
+    font-style: italic;
+    color: #333;
+    margin: 0 0 20px;
+}
+
+#author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+    margin-top: 10px;
+}
+
+#new-quote-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+#new-quote-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    #quote-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #quote {
+        font-size: 1.2em;
+    }
+
+    #new-quote-btn {
+        font-size: 0.9em;
+    }
+}
